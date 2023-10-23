@@ -1,0 +1,13 @@
+<robot name="cloth">
+  <deformable name="cloth">
+   <inertial>
+     <mass value="1" />
+     <inertia ixx="0.0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+   </inertial>
+   <friction value= "0.5"/>
+   <visual filename="cloth_z_up.obj"/>
+   <spring_elastic_stiffness value="50"/>
+   <spring_damping_stiffness value="1."/>
+   <spring_damping_all_directions value="1"/>
+  </deformable>
+</robot>
